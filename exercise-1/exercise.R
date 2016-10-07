@@ -21,7 +21,7 @@ len <- length(q)
 ### Bonus ###
 
 # Create a vector `odd` that holds the odd numbers from 1 to 100
-add <- seq(1, 100, 2)
+odd <- seq(1, 100, 2)
 
 # Using the `all` function, confirm that all of the numbers in your `odd` vector are odd
-check <- all(add)
+all(odd %% 2 == 1)
