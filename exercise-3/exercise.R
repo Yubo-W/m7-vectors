@@ -42,10 +42,10 @@ AvgTries <- function(samp) {
   totalTries <- 0
   while (games <= 1000) {
     totalTries <- totalTries + KeepPlaying(marbles)
-    average <- totalTries/games
-    print(average)
     games <- games + 1
   }
+  average <- totalTries/1000
+  return(average)
 }
 
 run <- AvgTries(marbles)
