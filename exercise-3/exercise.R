@@ -50,4 +50,4 @@ AvgTries <- function(samp) {
 
 run <- AvgTries(marbles)
 
-# Yes, an average of around 6 tries is what I expected.
+# Yes, an average of around 6 tries is what I expected. More specifically, the average is always around 5.7 to 6.3.
