@@ -13,6 +13,11 @@ random.marble <- sample(marbles)[1]
 MarbleGame <- function(samp) {
   user <- sample(samp)[1]
   chosen <- sample(samp)[1]
+  if (user == chosen) {
+    print("Congratulations! You guesses correctly.")
+  } else {
+    print("Sorry, try again.")
+  }
   return(user == chosen)
 }
 
